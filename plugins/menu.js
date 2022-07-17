@@ -35,7 +35,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan %name! 👋
+Hai Beban :), %ucapan %name! 👋
   
 *Waktu:* 
 %wib WIB
