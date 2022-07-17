@@ -5,33 +5,33 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'rpgabsen': 'Rpg-Absen',
-  'rpg': 'Rpg',
-  'game': 'Game',
-  'xp': 'Exp, Limit & Pay',
-  'sticker': 'Sticker',
-  'main': 'Main',
-  'kerang': 'Kerang Ajaib',
-  'quotes': 'Quotes',
-  'admin': 'Admin',
-  'group': 'Group',
-  'internet': 'Internet',
-  'anonymous': 'Anonymous Chat',
-  'downloader': 'Downloader',
-  'berita': 'Berita',
-  'tools': 'Tools',
-  'fun': 'Fun',
-  'database': 'Database', 
-  'vote': 'Voting',
-  'absen': 'Absen',
-  'catatan': 'Catatan',
-  'jadian': 'Jadian',
-  'islami': 'Islami',
-  'owner': 'Owner',
-  'advanced': 'Advanced',
-  'info': 'Info',
-  'audio': 'Audio',
-  'maker': 'Maker',
+  'rpgabsen': 'Rpg-Absen📋',
+  'rpg': 'Rpg🌱',
+  'game': 'Game🎮',
+  'xp': 'Exp, Limit & Pay✨',
+  'sticker': 'Sticker🌵',
+  'main': 'Main🧐',
+  'kerang': 'Kerang Ajaib🐚',
+  'quotes': 'Quotes😕',
+  'admin': 'Admin👩‍💻',
+  'group': 'Group💬',
+  'internet': 'Internet📶',
+  'anonymous': 'Anonymous Chat❓',
+  'downloader': 'Downloader📥',
+  'berita': 'Berita🤨',
+  'tools': 'Tools🛠️',
+  'fun': 'Fun🤣',
+  'database': 'Database🗃️', 
+  'vote': 'Voting🔉',
+  'absen': 'Absen📚',
+  'catatan': 'Catatan📑',
+  'jadian': 'Jadian❣️',
+  'islami': 'Islami🕋',
+  'owner': 'Owner😎',
+  'advanced': 'Advanced🗿',
+  'info': 'Info🤖',
+  'audio': 'Audio🎶',
+  'maker': 'Maker🕹️',
 }
 const defaultMenu = {
   before: `
@@ -179,17 +179,17 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: 'Donasi🤖',
                                     id: '/donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa',
+                                    displayText: 'Sewa💳',
                                     id: '/sewa'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'Owner😎',
                                     id: '/owner'
                                 }
                             }]
