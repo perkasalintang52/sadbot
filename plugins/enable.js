@@ -192,24 +192,25 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     default:
       if (!/[01]/.test(command)) return m.reply(`
 List option:
-| welcome
-| delete
-| public
-| antilink
-| antidelete
-| antitoxic
-| antisticker
-| autosticker
-| autolevelup
-| detect
-| document
-| whitelistmycontacts
-| restrict
-| nyimak
-| autoread
-| pconly
-| gconly
-| swonly
+•_________•
+| welcome [✨]
+| delete [🚫]
+| public [🔉]
+| antilink [💬]
+| antidelete [🚫]
+| antitoxic [🕹️]
+| antisticker [🤖]
+| autosticker [🌵]
+| autolevelup [🎚️]
+| detect [®️]
+| document [📋]
+| whitelistmycontacts [🗿]
+| restrict [❓]
+| nyimak [🗿]
+| autoread [🤨]
+| pconly [👩‍💻]
+| gconly [📚]
+| swonly [😎]
 Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
