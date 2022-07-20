@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'https://instagram.com/joceylintangg | https://tiktok.com/@joceylintangg', null, 'https://saweria.co/joceylintangg', 'Saweria', '', '', [
       ['Donate🤖', '/donasi🤖'],
       ['Sewa Bot💬', '/sewa💬'],
       ['Owner🗿, '/owner🗿']
@@ -174,8 +174,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    displayText: 'Saweria',
+                                    url: 'https://saweria.co/joceylintangg'
                                 }
                             }, {
                                 quickReplyButton: {
