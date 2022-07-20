@@ -1,7 +1,7 @@
 let fs = require ('fs')
 let { webp2png } = require('../lib/webp2mp4')
 let handler = async (m, { conn, usedPrefix, command }) => {
-await m.reply('*「 WAIT 」 SEDANG PROSES...*')
+await m.reply('*SEDANG PROSES OLEH JANDA...*')
     if (!m.quoted) throw `balas stiker dengan caption *${usedPrefix + command}*`
     let mime = m.quoted.mimetype || ''
     if (!/webp/.test(mime)) throw `balas stiker dengan caption *${usedPrefix + command}*`
@@ -10,7 +10,7 @@ await m.reply('*「 WAIT 」 SEDANG PROSES...*')
     if (/webp/.test(mime)) {
         out = await webp2png(media)
     }
-    await conn.sendFile(m.chat, out, 'out.png', '*Nihh Kakk >_<*', m, false)
+    await conn.sendFile(m.chat, out, 'out.png', '*Nihh Kakk Janda nya >_<*', m, false)
 }
 handler.help = ['toimg (reply)']
 handler.tags = ['maker']
